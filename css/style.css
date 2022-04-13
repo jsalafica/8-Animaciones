@@ -1,0 +1,87 @@
+/* Primer ejemplo */
+/* div.anime {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: solid 1px;
+}
+div {
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+div:not(.anime){
+    border: solid 1px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 207px;
+    top: 57px;
+}
+@keyframes animacion {
+    from {}
+    to {
+        transform: skewY(25deg);
+    }
+}
+.anime {
+    animation: animacion 1s linear 3s infinite alternate;
+} */
+
+/* Segundo ejemplo */
+/* .anime {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 10s;
+}
+@keyframes un_efecto {
+    0% {
+        width: 100px;
+    }
+    25% {
+        width: 300px;
+        background-color: yellow;
+    }
+    50% {
+        width: 200px;
+        background-color: blue;
+    }
+    75% {
+        width: 300px;
+        background-color: red;
+    }
+    100% {
+        width: 100px;
+        background-color: green;
+    }
+} */
+
+/* Tercer ejemplo */
+/* h1 {
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
+
+/* Ejemplo con Animate.css */
+/* Aplico la clase class="animate__animated animate__bounce" */
+h1 {
+    text-align: center;
+    color: coral;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+}
